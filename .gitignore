@@ -33,4 +33,4 @@ tests/_support/_generated
 /.vagrant
 
 #database config
-config/db-connection.php
+config/db.php
