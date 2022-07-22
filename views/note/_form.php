@@ -22,7 +22,7 @@ use yii\helpers\Html;
 
     <?= $form->field($model, 'description')->textInput(['maxlength' => true, 'placeholder' => 'Описание']) ?>
 
-    <?= $form->field($model, 'content')->textInput(['maxlength' => true, 'placeholder' => 'Content']) ?>
+    <?= $form->field($model, 'content')->textarea(['placeholder' => 'Контент']) ?>
 
     <?= Html::submitButton('Сохранить') ?>
 
